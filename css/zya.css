@@ -1,0 +1,77 @@
+.cpu{
+    width: 90%;
+    margin: 0 auto;
+}
+.cpu img{
+    width: 100%;
+}
+.cpu .cu{
+
+}
+.cpu .cu p{
+    width: 100%;
+    margin: 10px 0;
+    line-height: 27px;
+    text-indent: 2em;
+}
+.cpu .cu p:nth-of-type(1){
+    text-align: center;
+    font-size: 25px;
+    color: #b2b2b2;
+}
+.wo{
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+.wo .cc{
+    margin: 0 auto;
+}
+.wo p{
+    text-align: left;
+    margin: 2px auto;
+    width: 82%;
+}
+/*适应*/
+@media only screen and (max-width: 720px){
+    .wo{
+        width: 100%;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .wo .cc{
+        margin: 0 auto;
+    }
+    .wo p{
+        text-align: left;
+        margin: 2px auto;
+        width: 98%;
+    }
+}
+@media(max-width: 414px){
+    .jpc{
+        margin-top: 60px;
+    }
+    .cpu{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .cpu img{
+        width: 100%;
+    }
+    .cpu .cu{
+
+    }
+    .cpu .cu p{
+        font-size: 14px;
+        width: 100%;
+        margin: 10px 0;
+        line-height: 27px;
+        text-indent: 2em;
+    }
+    .cpu .cu p:nth-of-type(1){
+        text-align: center;
+        font-size: 18px;
+        color: #b2b2b2;
+    }
+}

@@ -1,0 +1,414 @@
+.cpu{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.cpu .left{
+    width: 78%;
+    float: left;
+    height: 577px;
+    overflow: hidden;
+}
+.cpu .left .p1{
+    width: 100%;
+    color: #b2b2b2;
+    border-bottom: 1px solid #b2b2b2;
+    padding-bottom: 3px;
+}
+.cpu .left .p1 a{
+    color: #b2b2b2;
+}
+.cpu .left .lefta{
+    overflow: hidden;
+    height: 128px;
+    margin-top: 10px;
+}
+.cpu .left .lefta .da{
+    font-weight: bold;
+    font-size: 14px;
+    float: left;
+    width: 20%;
+   height: 100%;
+}
+.cpu .left .lefta .da img{
+    width: 100%;
+    height: 100%;
+}
+.cpu .left .lefta .db{
+    float: left;
+    width: 48%;
+    margin-left: 10%;
+}
+.cpu .left .lefta .db p{
+    height: 64px;
+    text-align: left;
+    color: #a3afb7;
+}
+.cpu .left .lefta .db p:nth-of-type(2){
+    text-align: left;
+}
+.cpu .left .lefta .db a{
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 64px;
+}
+/*.cpu .left .lefta .dc{*/
+    /*float: left;*/
+    /*width: 20%;*/
+    /*color: #a3afb7;*/
+    /*line-height: 128px;*/
+    /*height: 100%;*/
+    /*text-align: center;*/
+/*}*/
+.cpu .lefts{
+    width: 78%;
+    float: left;
+}
+.cpu .lefts .p1{
+    width: 100%;
+    color: #b2b2b2;
+    border-bottom: 1px solid #b2b2b2;
+    padding-bottom: 3px;
+}
+.cpu .lefts .p1 a{
+    color: #b2b2b2;
+}
+.cpu .right{
+    width: 20%;
+    float: right;
+    margin-top: 20px;
+}
+.cpu .right .t1{
+    font-size: 16px;
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+}
+.cpu .right .right1{
+   overflow: hidden;
+    margin-top: 10px;
+}
+.cpu .right .right1 .ij{
+    float: left;
+    width: 30%;
+    height: 70px;
+}
+.cpu .right .right1 .ij1{
+    float: right;
+    width: 68%;
+    height: 70px;
+    overflow: hidden;
+    color: black;
+    overflow: hidden;
+}
+.xy{
+    width: 100%;
+}
+.xy .sbv{
+    width: 30%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.xy .sbv li{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.xy .sbv a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #b2b2b2;
+}
+.lf{
+    width: 100%
+}
+.lf .gf{
+    width: 100%;
+    margin: 10px auto;
+}.lf .gf p{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+ }
+.lf .ge{
+    width: 100%;
+    text-align: center;
+}
+.lf .ge .m{
+    text-align: center;
+    margin: 10px auto;
+
+}
+.lf .ge p{
+    font-size: 14px;
+    text-indent: 2em;
+    line-height: 30px;
+    text-align: left;
+}
+/*适应*/
+@media only screen and (max-width: 720px){
+    .cpu{
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        margin-top: 30px;
+    }
+
+    .cpu .left{
+        width: 78%;
+        float: left;
+        height: 500px;
+    }
+    .cpu .left .p1{
+        width: 100%;
+        color: #b2b2b2;
+        border-bottom: 1px solid #b2b2b2;
+        padding-bottom: 3px;
+    }
+    .cpu .left .p1 a{
+        color: #b2b2b2;
+    }
+    .cpu .left .lefta{
+        overflow: hidden;
+        height: 100px;
+        margin-top: 10px;
+    }
+    .cpu .left .lefta .da{
+        font-weight: bold;
+        font-size: 14px;
+        float: left;
+        width: 20%;
+        height: 100%;
+    }
+    .cpu .left .lefta .da img{
+        width: 100%;
+        height: 100%;
+    }
+    .cpu .left .lefta .db{
+        float: left;
+        width: 56%;
+        margin-left: 2%;
+    }
+    .cpu .left .lefta .db p{
+        height: 50px;
+        text-align: left;
+        color: #a3afb7;
+    }
+    .cpu .left .lefta .db p:nth-of-type(2){
+        text-align: left;
+        font-size: 14px;
+    }
+    .cpu .left .lefta .db a{
+        color: black;
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /*.cpu .left .lefta .dc{*/
+    /*float: left;*/
+    /*width: 20%;*/
+    /*color: #a3afb7;*/
+    /*line-height: 128px;*/
+    /*height: 100%;*/
+    /*text-align: center;*/
+    /*}*/
+    .cpu .right{
+        width: 20%;
+        float: right;
+        margin-top: 20px;
+    }
+    .cpu .right .t1{
+        font-size: 16px;
+        margin-top: 5px;
+        text-align: center;
+        width: 100%;
+    }
+    .cpu .right .right1{
+        overflow: hidden;
+        margin-top: 10px;
+    }
+    .cpu .right .right1 .ij{
+        float: left;
+        width: 30%;
+        height: 40px;
+    }
+    .cpu .right .right1 .ij1{
+        float: right;
+        font-size: 14px;
+        width: 68%;
+        height: 40px;
+        overflow: hidden;
+        color: black;
+        overflow: hidden;
+    }
+    .xy{
+        width: 100%;
+    }
+    .xy .sbv{
+        width: 30%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .xy .sbv li{
+        float: left;
+        width: 33%;
+        text-align: center;
+    }
+    .xy .sbv a{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        color: #b2b2b2;
+    }
+}
+ @media(max-width: 414px){
+     .lf .ge{
+         width: 98%;
+         /*text-align: center;*/
+         margin: 0 auto;
+     }
+     .cpu{
+         width: 100%;
+         margin: 0 auto;
+         overflow: hidden;
+         margin-top: 30px;
+     }
+     .cpu .lefts{
+         margin: 0 auto;
+         width: 98%;
+         float: none;
+     }
+     .cpu .lefts .p1{
+         width: 100%;
+         color: #b2b2b2;
+         border-bottom: 1px solid #b2b2b2;
+         padding-bottom: 3px;
+         font-size: 12px;
+     }
+     .cpu .left{
+         width:98%;
+         float: none;
+         margin: 0 auto;
+         height: 400px;
+     }
+     .cpu .left .p1{
+         width: 100%;
+         color: #b2b2b2;
+         border-bottom: 1px solid #b2b2b2;
+         padding-bottom: 3px;
+         font-size: 12px;
+     }
+     .cpu .left .p1 a{
+         color: #b2b2b2;
+     }
+     .cpu .left .lefta{
+         overflow: hidden;
+         height: 80px;
+         margin-top: 10px;
+     }
+     .cpu .left .lefta .da{
+         font-weight: bold;
+         font-size: 12px;
+         float: left;
+         width: 19%;
+         height: 100%;
+         margin-left: 1%;
+     }
+     .cpu .left .lefta .da img{
+         width: 100%;
+         height: 100%;
+     }
+     .cpu .left .lefta .db{
+         float: left;
+         width: 78%;
+         margin-left: 2%;
+     }
+     .cpu .left .lefta .db p{
+         height: 40px;
+         text-align: left;
+         color: #a3afb7;
+         width: 100%;
+     }
+     .cpu .left .lefta .db p:nth-of-type(2){
+         text-align: left;
+         font-size: 12px;
+     }
+     .cpu .left .lefta .db a{
+         color: black;
+         width: 100%;
+         height: 100%;
+         display: inline-block;
+         font-weight: bold;
+         font-size: 12px;
+         line-height: 20px;
+     }
+     /*.cpu .left .lefta .dc{*/
+     /*float: left;*/
+     /*width: 20%;*/
+     /*color: #a3afb7;*/
+     /*line-height: 128px;*/
+     /*height: 100%;*/
+     /*text-align: center;*/
+     /*}*/
+     .cpu .right{
+         width: 20%;
+         float: none;
+         margin-top: 20px;
+         display: none;
+     }
+     .cpu .right .t1{
+         font-size: 16px;
+         margin-top: 5px;
+         text-align: center;
+         width: 100%;
+     }
+     .cpu .right .right1{
+         overflow: hidden;
+         margin-top: 10px;
+     }
+     .cpu .right .right1 .ij{
+         float: left;
+         width: 30%;
+         height: 40px;
+     }
+     .cpu .right .right1 .ij1{
+         float: right;
+         font-size: 14px;
+         width: 68%;
+         height: 40px;
+         overflow: hidden;
+         color: black;
+         overflow: hidden;
+     }
+     .xy{
+         width: 100%;
+         margin-top: 5px;
+     }
+     .xy .sbv{
+         width: 90%;
+         overflow: hidden;
+         margin: 0 auto;
+     }
+     .xy .sbv li{
+         float: left;
+         width: 33%;
+         text-align: center;
+     }
+     .xy .sbv a{
+         display: inline-block;
+         width: 100%;
+         height: 100%;
+         color: #b2b2b2;
+     }
+ }
+

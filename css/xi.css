@@ -1,0 +1,74 @@
+.lian{
+    width: 100%;
+}
+
+.wo{
+    width: 1200px;
+    margin: 0 auto;
+}
+.wo h2{
+    width: 100%;
+    text-align: center;
+    background:url("../img/t1.png")no-repeat center;
+    line-height: 58px;
+    height: 58px;
+    letter-spacing:5px;
+}
+.wo .from span{
+    display: inline-block;
+    width:100px ;
+    text-align: left;
+}
+.pp{
+    width: 100%;
+}
+.pp .pon{
+    width: 100%;
+    margin: 50px 0;
+    font-size: 16px;
+}
+/*适应*/
+@media only screen and (max-width: 720px){
+
+}
+@media(max-width: 414px){
+    .jpc{
+        margin-top: 60px;
+    }
+    .lian{
+
+        width: 100%;
+    }
+
+    .wo{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .wo h2{
+        width: 100%;
+        text-align: center;
+        background:url("../img/t1.png")no-repeat center;
+        line-height: 58px;
+        height: 58px;
+        letter-spacing:5px;
+    }
+    .wo .from span{
+        display: inline-block;
+        width:100px ;
+        text-align: left;
+    }
+    .pp{
+        width: 100%;
+    }
+    .pp .pon{
+        width: 100%;
+        margin: 22px 0;
+        font-size: 16px;
+    }
+}
+#dituContent .BMap_omOutFrame{
+    display: none;
+}
+#dituContent .BMap_omCtrl{
+    display: none;
+}

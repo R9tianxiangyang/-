@@ -1,0 +1,679 @@
+/*导航*/
+.clear{
+    clear: both;
+    width: 0;
+    height: 0;
+}
+.jie .cv{
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 微软雅黑;
+}
+.boom{
+    display: none;
+}
+.fg{
+    display: none;
+}
+.m{
+    max-width: 100%;
+}
+.nav{
+    width: 100%;
+    /*background: rgba(40,40,40,0.37);*/
+    /*background: rgba(124,124,124,0.2);*/
+    background: white;
+    height: 60px;
+    /*position: fixed;*/
+    /*margin-bottom: 60px;*/
+    /*left: 0;*/
+    /*top: 0;*/
+}
+.nav .chart{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    /*overflow: hidden;*/
+}
+.nav .chart .im{
+    height: 60px;
+    max-width: 100%;
+}
+.nav .chart>div{
+    width: 12%;
+    height: 100%;
+    float: left;
+}
+
+
+.nav .chart .chartlv{
+        position: relative;
+}
+.nav .chart .chartlv .dy{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color:black;
+    line-height: 60px;
+}
+.nav .chart .chartlv .dy:hover{
+    background: white;
+    /*color: red;*/
+    cursor: pointer;
+}
+.nav .chart .chartlv .csg{
+    width: 100%;
+    background: white;
+    /*color: #b2b2b2;*/
+    position: absolute;
+    left: 0;
+    z-index: 99;
+    display: none;
+
+}
+
+.nav .chart a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: black;
+    line-height: 60px;
+}
+.nav .chart a:hover{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background:white;
+    color:black;
+    /*font-size: 25px;*/
+}
+.nav .chart .chart1{
+    overflow: hidden;
+    /*height: 50px;*/
+    /*padding-top: 10px;*/
+}
+.nav .chart .chart1 .dh1{
+    float: left;
+    width: 27%;
+}
+.nav .chart .chart1 .dh1 img{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+}
+.nav .chart .chart1 .dh2{
+    line-height: 30px;
+    float: left; width: 73%;
+    color: black;
+}
+
+/*导航*/
+.hc{
+    background:url("../img/t1.png") no-repeat center;
+    line-height: 58px;
+    text-align: center;
+    height: 58px;
+    letter-spacing:5px;
+}
+.hc span{
+    color: red;
+}
+/*foot*/
+.foot{
+    width: 100%;
+    /*background:rgba(40,40,40,0.37);*/
+    background:#3c5035;
+    margin-top: 20px;
+}
+.foot .foot1{
+    width: 1200px;
+    margin: 0 auto;
+}
+.foot .foot1 .fo{
+        width: 100%;
+    overflow: hidden;
+    padding-top: 30px;
+}.foot .foot1 .fo a{
+    display: inline-block;
+    color: white;
+    float: left;
+    text-align: center;
+    width: 16.6%;
+    font-size: 18px;
+ }
+.foot .foot1 .fo a:hover{
+    color: black;
+}
+.foot .foot1 .ft{
+    color: white;
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+}
+.foot .foot1 .ft .ft1{
+    float: left;
+    margin-top: 15px;
+}
+.foot .foot1 .ft .ft2{
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.foot .foot1 .ft .ft3{
+    margin: 30px 0 0 150px;
+    float: left;
+    width: 120px;
+    height: 120px;
+}
+.foot .foot1 .ft .ft3 img{
+    width: 100%;
+    height: 100%;
+}
+.foot .foot1 .ft .ft2 div{
+    margin-top: 5px;
+}
+/*foot*/
+
+/*zhong*/
+.jie{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.jie .left{
+    float: left;
+    width: 18%;
+}
+.jie .left .ll{
+    text-align: center;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 2px;
+}
+.jie .left a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    line-height: 35px;
+    text-align: center;
+    background-color: rgba(141, 140, 140, 1);
+    color: whitesmoke;
+}
+.jie .left a:hover{
+    background: #d7de99;
+    color: black;
+}.jie .left .le{
+     background: url("../img/adc.jpg") no-repeat center;
+     height: 200px;
+     padding-top: 100px;
+ }
+.jie .left .le div{color: whitesmoke;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 5px}
+.jie .left .le div:nth-of-type(1){
+    font-size: 20px;
+    text-align: center;
+}
+.jie .right{
+    float: left;
+    margin-left: 2%;
+    width:80% ;
+    height:750px;
+    overflow: hidden;
+}
+.jie .right .ri{
+    margin-top: 20px;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black ;
+}
+.jie .right .ri p{
+    text-align: left;
+    color: black;
+}.jie .right .ri a{
+    color: #b2b2b2;
+ }
+
+.jie .rights{
+    float: left;
+    margin-left: 2%;
+    width:80% ;
+    overflow: hidden;
+}
+.jie .rights .ri{
+    margin-top: 20px;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black ;
+}
+.jie .rights .ri p{
+    text-align: right;
+    color: black;
+}.jie .rights .ri a{
+     color: #b2b2b2;
+ }
+/*zhong*/
+
+@media only screen and (max-width: 720px) {
+    .nav{
+        width: 100%;
+        background:white;
+        height: 60px;
+    }
+    .nav .chart{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        /*overflow: hidden;*/
+    }
+    .nav .chart .im{
+        height: 60px;
+        max-width: 100%;
+    }
+    .nav .chart>div{
+        width: 16.6%;
+        height: 100%;
+        float: left;
+    }
+    .nav .chart>div:nth-of-type(1) {
+        display: none;
+    }
+    .nav .chart a{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: black;
+        line-height: 60px;
+    }
+    .nav .chart a:hover{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background: whitesmoke;
+
+    }
+    .nav .chart .chart1{
+        overflow: hidden;
+        /*height: 50px;*/
+        /*padding-top: 10px;*/
+        display: none;
+    }
+    .nav .chart .chart1 .dh1{
+        float: left;
+        width: 27%;
+    }
+    .nav .chart .chart1 .dh1 img{
+        width: 30px;
+        height: 30px;
+        margin-top: 15px;
+    }
+    .nav .chart .chart1 .dh2{
+        line-height: 30px;
+        float: left; width: 73%;
+        color: #fff;
+    }
+
+    /*导航*/
+    .hc{
+        background:url("../img/t1.png") no-repeat center;
+        line-height: 58px;
+        text-align: center;
+        height: 58px;
+        letter-spacing:5px;
+    }
+    .hc span{
+        color: red;
+    }
+    /*foot*/
+    .foot{
+        width: 100%;
+        background:#3c5035;
+    }
+    .foot .foot1{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .foot .foot1 .fo{
+        width: 100%;
+        overflow: hidden;
+        padding-top: 30px;
+    }.foot .foot1 .fo a{
+         display: inline-block;
+         color: white;
+         float: left;
+         text-align: center;
+         width: 16.6%;
+         font-size: 18px;
+     }
+    .foot .foot1 .fo a:hover{
+        color: black;
+    }
+    .foot .foot1 .ft{
+        color: white;
+        overflow: hidden;
+        width: 95%;
+        margin:10px auto 0 auto;
+    }
+    .foot .foot1 .ft .ft1{
+        float: left;
+        width: 30%;
+        text-align: center;
+    }
+    .foot .foot1 .ft .ft2{
+        float: left;
+        margin-top: 0px;
+        margin-left: 3%;
+        margin-right: 3%;
+        width: 40%;
+        font-size: 14px;
+
+    }
+    .foot .foot1 .ft .ft2 div{
+        margin-top: 5px;
+    }
+    .foot .foot1 .ft .ft3{
+        margin: 10px 0 0 0px;
+        float: left;
+        height: 120px;
+        width: 20%;
+    }
+    /*zhong*/
+    .jie{
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .jie .left{
+        float: left;
+        width: 18%;
+        font-size: 12px;
+    }
+    .jie .left .ll{
+        text-align: center;
+        width: 100%;
+        height: 35px;
+        margin-bottom: 2px;
+    }
+    .jie .left a{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        line-height: 35px;
+        text-align: center;
+        background-color: rgba(141, 140, 140, 1);
+        color: whitesmoke;
+    }
+    .jie .left a:hover{
+        background: #d7de99;
+        color: black;
+    }.jie .left .le{
+         background: url("../img/adc.jpg") no-repeat center;
+         height: 200px;
+         padding-top: 100px;
+     }
+    .jie .left .le div{color: whitesmoke;
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 5px}
+    .jie .left .le div:nth-of-type(1){
+        font-size: 20px;
+        text-align: center;
+    }
+    .jie .right{
+        float: left;
+        margin-left: 2%;
+        width:80% ;
+    }
+    .jie .right .ri{
+        margin-top: 20px;
+        width: 100%;
+        padding-bottom: 5px;
+        border-bottom: 1px solid black ;
+    }
+    .jie .right .ri p{
+        text-align: right;
+        color: black;
+    }.jie .right .ri a{
+         color: #a7b8de;
+     }
+
+    .jie .rights{
+        float: left;
+        margin-left: 2%;
+        width:80% ;
+        overflow: hidden;
+    }
+    .jie .rights .ri{
+        margin-top: 20px;
+        width: 100%;
+        padding-bottom: 5px;
+        border-bottom: 1px solid black ;
+    }
+    .jie .rights .ri p{
+        text-align: right;
+        color: black;
+    }.jie .rights .ri a{
+         color: #b2b2b2;
+     }
+    /*zhong*/
+}
+@media (max-width: 414px) {
+    .nav{
+        display: none;
+    }
+    .fg{
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        background:#b2b2b2;
+        height: 60px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        margin-bottom: 60px;
+        z-index: 9999;
+    }
+    .fg img{
+        height: 100%;
+    }
+    .fg .ll{
+        float: left;
+        margin-left: 10px;
+    }
+    .fg .rr{
+        float: right;
+        margin-right: 10px;
+    }
+    .boom{
+        width: 60%;
+        height: 100%;
+        position: fixed;
+        top:60px;
+        right: 0px;
+        z-index: 99999;
+        background: whitesmoke;
+        /*display: none;*/
+         }
+    .boom div{
+        width: 100%;
+    }
+    .boom div:nth-of-type(1){
+        background: #ff804f;
+    }
+    .boom a{
+        display: inline-block;
+        width: 90%;
+        color: black;
+        height: 60px;
+        line-height: 60px;
+        margin-left: 10%;
+    }
+    /*foot*/
+    .foot{
+        width: 100%;
+        background:#3c5035;
+        padding-bottom: 20px;
+    }
+    .foot .foot1{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .foot .foot1 .fo{
+        width: 100%;
+        overflow: hidden;
+        padding-top: 30px;
+        display: none;
+    }.foot .foot1 .fo a{
+         display: inline-block;
+         color: white;
+         float: left;
+         text-align: center;
+         width: 16.6%;
+         font-size: 18px;
+     }
+    .foot .foot1 .fo a:hover{
+        color: black;
+    }
+    .foot .foot1 .ft{
+        color: white;
+        overflow: hidden;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .foot .foot1 .ft .ft1{
+        float: none;
+        margin-left:5%;
+    }
+    .foot .foot1 .ft .ft2{
+        width: 90%;
+        float: none;
+       margin: 0 auto;
+    }
+    .foot .foot1 .ft .ft2 div{
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    .foot .foot1 .ft .ft3{
+        margin: 10px 0 0 0px;
+        float: none;
+        height: 100px;
+        width: 100%;
+        text-align: center;
+    }
+    .foot .foot1 .ft .ft3 img{
+        width: 100px;
+        height: 100px;
+    }
+    /*foot*/
+    /*zhong*/
+    .jie{
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .jie .left{
+        float: none;
+        width: 18%;
+        font-size: 12px;
+        display: none;
+    }
+    .jie .left .ll{
+        text-align: center;
+        width: 100%;
+        height: 35px;
+        margin-bottom: 2px;
+    }
+    .jie .left a{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        line-height: 35px;
+        text-align: center;
+        background-color: rgba(141, 140, 140, 1);
+        color: whitesmoke;
+    }
+    .jie .left a:hover{
+        background: #d7de99;
+        color: black;
+    }.jie .left .le{
+         background: url("../img/adc.jpg") no-repeat center;
+    background-size: 100% 100%;
+         height: auto;
+
+     }
+    .jie .left .le div{color: whitesmoke;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 5px}
+    .jie .left .le div:nth-of-type(1){
+        font-size: 14px;
+        text-align: center;
+    }
+    .jie .right{
+        float: none;
+        /*margin:0 1%;*/
+        width:98% ;
+        margin: 0 auto;
+        height: auto;
+    }
+    .jie .right .ri{
+        margin-top: 10px;
+        width: 100%;
+        padding-bottom: 5px;
+        border-bottom: 1px solid black ;
+        font-size: 12px;
+    }
+    .jie .right .ri p{
+        text-align: left;
+        color: black;
+    }.jie .right .ri a{
+         color: #a7b8de;
+     }
+    .jie .rights{
+        float: none;
+        width:98% ;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .jie .rights .ri{
+        margin-top: 20px;
+        width: 100%;
+        padding-bottom: 5px;
+        border-bottom: 1px solid black ;
+        font-size: 12px;
+    }
+    .jie .rights .ri p{
+        text-align: left;
+        color: black;
+    }.jie .rights .ri a{
+         color: #b2b2b2;
+    font-size: 12px;
+     }
+    /*zhong*/
+    .jie .cv{
+        overflow: hidden;
+        display: block;
+    }
+    .jie .cv a{
+        float: left;
+        text-align: center;
+        width: 20%;
+        font-size: 10px;
+        color: #8a6d3b;
+        text-align: center;
+
+    }
+}

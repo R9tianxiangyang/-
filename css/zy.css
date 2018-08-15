@@ -1,0 +1,171 @@
+/*图*/
+    .jpc{
+        width: 100%;
+        height: 391px;
+    }.jpc imig{
+    width: 100%;
+    height: 100%
+         }
+
+/*图*/
+.cpin{
+    width: 100%;
+    overflow: hidden;
+    height: 673px;
+}
+.cpin .rsc{
+    width: 30%;
+    margin: 1.5%;
+    float: left;
+}
+.cpin .rsc .apc{
+    display: inline-block;
+    width: 100%;
+    color: black;
+}
+.cpin .rsc .apc .xc{
+    overflow: hidden;
+    width: 100%;
+    height: 163px;
+    border: 1px silver solid;
+}
+.cpin .rsc .apc .xc:hover{
+    border-color:#8a6d3b ;
+}
+.cpin .rsc .apc .xc img{
+    width: 100%;
+    height: 100%;
+}
+.cpin .rsc .apc .pyn{
+    width: 100%;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.xy{
+    width: 100%;
+}
+.xy .sbv{
+    width: 30%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.xy .sbv li{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.xy .sbv a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #b2b2b2;
+}
+/*适应*/
+@media only screen and (max-width: 720px){
+    .xy .sbv{
+        width: 80%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    /*图*/
+    .jpc{
+        width: 100%;
+        height: auto;
+    }.jpc imig{
+         width: 100%;
+         height: 100%
+     }
+
+    /*图*/
+    .cpin{
+        width: 100%;
+        overflow: hidden;
+    }
+    .cpin .rsc{
+        width: 30%;
+        margin: 1.5%;
+        float: left;
+    }
+    .cpin .rsc .apc{
+        display: inline-block;
+        width: 100%;
+        color: black;
+    }
+    .cpin .rsc .apc .xc{
+        overflow: hidden;
+        width: 100%;
+        height: 163px;
+        border: 1px silver solid;
+    }
+    .cpin .rsc .apc .xc:hover{
+        border-color:#8a6d3b ;
+    }
+    .cpin .rsc .apc .xc img{
+        width: 100%;
+        height: 100%;
+    }
+    .cpin .rsc .apc .pyn{
+        width: 100%;
+        line-height: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+@media(max-width: 414px){
+    .cpin{
+        width: 100%;
+        overflow: hidden;
+    }
+    .cpin .rsc{
+        width: 30%;
+        margin: 1.5%;
+        float: left;
+    }
+    .cpin .rsc .apc{
+        display: inline-block;
+        width: 100%;
+        color: black;
+    }
+    .cpin .rsc .apc .xc{
+        overflow: hidden;
+        width: 100%;
+        height: 100px;
+        border: 1px silver solid;
+    }
+    .cpin .rsc .apc .xc:hover{
+        border-color:#8a6d3b ;
+    }
+    .cpin .rsc .apc .xc img{
+        width: 100%;
+        height: 100%;
+    }
+    .cpin .rsc .apc .pyn{
+        width: 100%;
+        line-height: 20px;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 414px){
+    .jpc{
+        margin-top: 60px;
+    }
+    .cpin{
+        width: 100%;
+        overflow: hidden;
+        height:450px;
+    }
+    .xy .sbv{
+        width: 90%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .xy .sbv li{
+        float: left;
+        width: 33%;
+        text-align: center;
+    }
+}
+/*适应*/

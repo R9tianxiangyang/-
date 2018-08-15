@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>联系我们</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/xi.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+<body>
+<!--导航-->
+<div class="nav">
+    <div class="chart">
+        <div>
+            <img class="im" src="img/logo%20(2).png" alt="">
+        </div>
+        <div>
+            <a href="index.html">首页</a>
+        </div>
+        <div class="chartlv">
+            <p class="dy">关于我们</p>
+            <div class="csg">
+                <a href="mi.html">公司简介</a>
+                <a href="wen.html">企业文化</a>
+            </div>
+        </div>
+        <div>
+            <a href="zy.html">产品中心</a>
+        </div>
+        <div>
+            <a href="an.html">工程案例</a>
+        </div>
+        <div class="chartlv">
+            <p class="dy">新闻咨询</p>
+            <div class="csg">
+                <a href="ca.html">企业新闻</a>
+                <a href="ha.html">行业动态</a>
+            </div>
+        </div>
+        <div>
+            <a href="xi.html">联系我们</a>
+        </div>
+        <!--<div class="chart1">-->
+        <!--<div  class="dh1" >-->
+        <!--<img src="img/dh.png" alt="">-->
+        <!--</div>-->
+        <!--<div class="dh2">-->
+        <!--136 5336 1818-->
+        <!--3510777-->
+        <!--</div>-->
+        <!--</div>-->
+        <div style="width: 0;height: 0" class="clear"></div>
+    </div>
+</div>
+
+<div class="fg">
+    <img class="m ll" src="img/logo1.png" alt="">
+    <img class="m rr" src="img/lo.png" alt="">
+</div>
+<div class="boom">
+    <div><a href="#">MENU</a></div>
+    <div><a href="index.html">首页</a></div>
+    <div><a href="mi.html">公司简介</a></div>
+    <div><a href="wen.html">企业文化</a></div>
+    <div><a href="zy.html">产品中心</a></div>
+    <div><a href="an.html">工程案例</a></div>
+    <div><a href="ca.html">新闻咨询</a></div>
+    <div><a href="xi.html">联系我们</a></div>
+</div>
+<!--导航-->
+<!--图-->
+<div class="jpc">
+    <img class="m" src="img/ca.jpg" alt="">
+</div>
+<!--图-->
+
+<!--主-->
+<div class="jie">
+    <div class="left">
+        <img class="m" src="img/ad5.jpg" alt="">
+        <div class="ll" style="margin-top: -4px;"><a href="index.html">首页</a></div>
+        <div class="ll"><a href="mi.html">关于我们</a></div>
+        <div class="ll"><a href="zy.html">产品阵营</a></div>
+        <div class="ll"><a href="an.html">工程案例</a></div>
+        <div class="ll"><a href="ca.html">技术参数</a></div>
+        <div class="ll"><a href="xi.html">联系我们</a></div>
+        <div class="le">
+            <div>华腾环保</div>
+            <div>电话：0335-3510777</div>
+            <div>销售热线:13653361818</div>
+            <div>地址：河北省秦皇岛市海港区英庄李家商务酒店附近</div>
+        </div>
+    </div>
+    <div class="right">
+        <div class="ri"><p><a href="index.html">首页</a><span>>联系我们</span></p></div>
+        <!--联系我们-->
+            <div class="pp">
+                <div class="pon">公司名称：华腾环保华腾环保有限公司</div>
+                <div class="pon">电话：0335-3510777</div>
+                <div class="pon">销售热线:13653361818</div>
+                <div class="pon">销售热线:13653361818 联系人：王经理</div>
+                <div class="pon">地址：河北省秦皇岛市海港区归提寨商业街1号</div>
+                <div style="width:100%;height:200px;border:#ccc solid 1px;" id="dituContent"></div>
+            </div>
+        <!--联系我们-->
+    </div>
+</div>
+<!--主-->
+<!--foot-->
+<div class="foot">
+    <div class="foot1">
+        <div class="fo">
+            <a href="index.html">首页</a>
+            <a href="mi.html">关于我们</a>
+            <a href="zy.html">产品阵营</a>
+            <a href="an.html">工程案例</a>
+            <a href="ca.html">技术参数</a>
+            <a href="xi.html">联系我们</a>
+        </div>
+        <div class="ft">
+            <div class="ft1">
+                <img class="m" src="img/logo1.png" alt="">
+            </div>
+            <div class="ft2">
+                <div>	版权所有：华腾环保设备有限公司 </div><div> [京ICP备13006894号]京公网安备   </div>
+                <div>电话：0335-3510777  传真：0335-3258626 </div> <div>销售热线:13653361818   联系人：王经理</div>
+                <div>地址：河北省秦皇岛市海港区归提寨商业街1号</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--foot-->
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/js.js"></script>
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+    }
+
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(119.538215,39.904528);//定义一个中心点坐标
+        map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+        var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+        map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+        var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+        map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+        var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+        map.addControl(ctrl_sca);
+    }
+
+    //标注点数组
+    var markerArr = [{title:"奥克斯(中央空调工厂店)",content:"河北省秦皇岛市海港区归提寨商业街1号",point:"119.53777|39.904424",isOpen:0,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+    ];
+    //创建marker
+    function addMarker(){
+        for(var i=0;i<markerArr.length;i++){
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0,p1);
+            var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point,{icon:iconImg});
+            var iw = createInfoWindow(i);
+            var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+            marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                borderColor:"#808080",
+                color:"#333",
+                cursor:"pointer"
+            });
+
+            (function(){
+                var index = i;
+                var _iw = createInfoWindow(i);
+                var _marker = marker;
+                _marker.addEventListener("click",function(){
+                    this.openInfoWindow(_iw);
+                });
+                _iw.addEventListener("open",function(){
+                    _marker.getLabel().hide();
+                })
+                _iw.addEventListener("close",function(){
+                    _marker.getLabel().show();
+                })
+                label.addEventListener("click",function(){
+                    _marker.openInfoWindow(_iw);
+                })
+                if(!!json.isOpen){
+                    label.hide();
+                    _marker.openInfoWindow(_iw);
+                }
+            })()
+        }
+    }
+    //创建InfoWindow
+    function createInfoWindow(i){
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+        return iw;
+    }
+    //创建一个Icon
+    function createIcon(json){
+        var icon = new BMap.Icon("http://api.map.baidu.com/lbsapi/creatmap/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+        return icon;
+    }
+
+    initMap();//创建和初始化地图
+</script>
+</html>

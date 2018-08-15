@@ -1,0 +1,54 @@
+.xab{
+    width: 100%;
+}
+.xab .ft{
+    background: url("../img/t1.png")no-repeat center;
+    line-height: 58px;
+    height: 58px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.xab .al{
+    width: 70%;
+    margin: 0 auto;
+}
+.xab .al p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 30px;
+    text-indent: 2em;
+}
+/*适应*/
+@media only screen and (max-width: 720px){
+
+}
+@media(max-width: 414px){
+    .jpc{
+        margin-top: 60px;
+    }
+    .xab{
+        width: 100%;
+    }
+    .xab .ft{
+        background: url("../img/t1.png")no-repeat center;
+        line-height: 30px;
+        height: 30px;
+        background-size: 100% 100%;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .xab .al{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .xab .al p{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        line-height: 30px;
+        text-indent: 2em;
+        font-size: 14px;
+    }
+}

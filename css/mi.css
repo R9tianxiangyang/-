@@ -1,0 +1,50 @@
+.jian{
+    width: 100%;
+}
+.ght{
+    width: 100%;
+    margin-top: 20px;
+}
+.ght .gt{
+    width: 100%;
+    height: 300px;
+}
+.ght .gh{
+    width: 100%;
+}
+.ght .gh p{
+    text-indent: 2em;
+    margin-top: 10px;
+    line-height: 25px;
+}
+/*适应*/
+@media only screen and (max-width: 720px){
+    .jian{
+        width: 100%;
+    }
+    .jian img{
+        width: 100%;}
+    .ght{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .ght .gt{
+        width: 100%;
+        height: 300px;
+    }
+    .ght .gh{
+        width: 100%;
+    }
+    .ght .gh p{
+        text-indent: 2em;
+        margin-top: 10px;
+        line-height: 25px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 414px){
+    .jian{
+        margin-top: 60px;
+    }
+}
+/*适应*/

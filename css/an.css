@@ -1,0 +1,142 @@
+.an{
+    width: 100%;
+}
+.xy .sbv{
+    width: 30%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.xy .sbv li{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.xy .sbv a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #b2b2b2;
+}
+/*例子*/
+.ght{
+    width: 100%;
+    overflow: hidden;
+}
+.ght .gtf{
+    width: 30%;
+    margin:0.5% 1.6% ;
+    float: left;
+}
+.ght .gtf a{
+    display: inline-block;
+    color: black;
+}
+.ght .gtf .tst{
+    overflow: hidden;
+    height: 180px;
+}
+.ght .gtf .tst img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.ght .gtf .tst img:hover{
+    transform: scale(1.4);
+}
+.ght .gtf .ps{
+    margin-top: 0px;
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+}
+.ap{
+    display: inline-block;
+    width: 95%;
+    color: black;
+    text-align: right;
+  margin: 0 auto;
+}
+.ap:hover{
+    color: #d8de90;
+}
+/*例子*/
+
+/*适应*/
+@media only screen and (max-width: 720px){
+    .xy{
+        width: 100%;
+    }
+    .xy .sbv{
+        width: 90%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .xy .sbv li{
+        float: left;
+        width: 33%;
+        text-align: center;
+    }
+    .xy .sbv a{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        color: #b2b2b2;
+    }
+    .an{
+        width: 100%;
+    }
+    .an img{
+        width: 100%;
+    }
+    /*例子*/
+    .ght{
+        width: 100%;
+        overflow: hidden;
+    }
+    .ght .gtf{
+        width: 30%;
+        margin:1.6%;
+        float: left;
+        height: 160px;
+    }
+    .ght .gtf a{
+        display: inline-block;
+        color: black;
+    }
+    .ght .gtf .tst{
+        overflow: hidden;
+        height: auto;
+    }
+    .ght .gtf .tst img{
+        width: 100%;
+        height: 100px;
+        cursor: pointer;
+        transition: all 0.6s;
+    }
+    .ght .gtf .tst img:hover{
+        transform: scale(1.4);
+    }
+    .ght .gtf .ps{
+        margin-top: 10px;
+        width: 100%;
+        line-height: 20px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .ap{
+        display: inline-block;
+        width: 95%;
+        color: black;
+        text-align: right;
+        margin: 0 auto;
+    }
+    .ap:hover{
+        color: #d8de90;
+    }
+}
+@media(max-width: 414px){
+    .an{
+        margin-top: 60px;
+    }
+}
